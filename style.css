@@ -409,4 +409,26 @@ button:active {
     .dodgeZone {
         min-height: 230px;
     }
+
+    .dodgeZone {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        min-height: 170px;
+    }
+
+    .yesDock {
+        flex: 0 0 auto;
+    }
+
+    .dodgeZone .yes,
+    .dodgeZone .no {
+        width: auto;
+    }
+
+    #noBtn {
+        position: relative;
+        left: auto;
+        top: auto;
+    }
 }
